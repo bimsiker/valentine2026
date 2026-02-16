@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // ---- SCROLL ANIMATIONS FOR TIMELINE ----
   function initScrollAnimations() {
     const timelineItems = document.querySelectorAll('.timeline-item');
-    const fadeInSections = document.querySelectorAll('.her-section, .love-letter-section, .timeline-section');
+    const fadeInSections = document.querySelectorAll('.her-section, .love-letter-section');
 
     // Add fade-in class to sections
     fadeInSections.forEach(section => {
